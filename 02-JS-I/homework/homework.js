@@ -172,12 +172,12 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero === 0){
     return false;
-  } else (numero > '0') 
+  } else if (numero > '0') {
     return 'Es positivo';
-  }
+  } else {
     return 'Es negativo';
-  
-
+  }
+}
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
